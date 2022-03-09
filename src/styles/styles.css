@@ -12,11 +12,13 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: rgb(233, 219, 20);
 }
 
 .Header a {
   text-decoration: none;
   color: #15302C;
+  color: white;
 }
 
 .Main {
@@ -43,7 +45,7 @@ body {
 .Characters-card {
   text-decoration: none;
   box-shadow: 8px 14px 38px rgba(39,44,49,.06), 1px 3px 8px rgba(39,44,49,.03);
-  border-radius: 5px;
+  border-radius: 10px;
   margin: 0 0 20px 0;
   display: block;
   animation-duration: 2s;
